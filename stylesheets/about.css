@@ -1,0 +1,224 @@
+.navbar-nav li a, .navbar-brand{
+    font-family: 'Girassol', cursive;
+    text-transform: uppercase;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 150px 100px;
+}
+
+.intro h1 {
+    margin: 20px 0;
+    font-size: 7rem;
+    color: rgb(22, 8, 41);
+    text-transform: uppercase;
+    text-shadow: 4px 5px 2px white;
+}
+
+.intro h2 {
+    font-size: 4rem;
+    color: #5c5f6b;
+    text-shadow: 1px 1px 1px #fff1ef;
+}
+
+.intro h3 {
+    font-family: serif;
+    font-size: 2.5rem;
+    color: rgb(29, 38, 49);
+
+}
+
+.intro p {
+    font-family: serif;
+    font-size: 2.3rem;
+    color: rgba(0, 0, 0, 0.77);
+}
+
+.profile-box {
+    border: 10px;
+}
+
+.intro, .education, .working, .project{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-thumbnail {
+    width: 100%;
+    height: auto;
+}
+.img-thumbnail:hover {
+    box-shadow: 2px 2px 1px rgba(87, 72, 72, 0.69);
+}
+
+.divider {
+    border-top: solid 1px rgba(27, 24, 24, 0.69);
+}
+
+.education-div, .working-div {
+    width: 75vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.education-sub-menu {
+
+    font-family: "Gill Sans", sans-serif;
+    text-align: right;
+    font-weight: normal;
+}
+
+.working-sub-menu {
+
+    font-family: "Gill Sans", sans-serif;
+    text-align: left;
+}
+
+.education-content {
+    text-align: left;
+    color: thistle;
+    font-size: 18px;
+}
+
+.working-content {
+    text-align: left;
+    color: thistle;
+    font-size: 18px;
+}
+
+.education-content .overview {
+    text-align: left;
+}
+.working-content .overview {
+    text-align: left;
+}
+
+.education-sub-menu a {
+    font-family: 'Girassol', cursive;
+    color: rgba(97, 88, 169, 0.97);
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    text-decoration: none;
+}
+
+.working-sub-menu a {
+    font-family: 'Girassol', cursive;
+    color: rgba(97, 88, 169, 0.97);
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    text-decoration: none;
+}
+
+
+.ncku, .amazon {
+    display: none;
+}
+
+.thumbnail {
+    background-color: rgba(72, 115, 204, 0.54);
+}
+
+.thumbnail p {
+    font-family: serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+
+.thumbnail h3 {
+    font-family: 'Girassol', cursive;
+    font-size: 2.4rem;
+}
+
+.thumbnail:hover {
+    box-shadow: 5px 5px 2px grey;
+}
+
+
+
+.title {
+    font-family: 'Girassol', cursive;
+    font-size: 2.8rem;
+    color: #000000e8;
+}
+
+.timeline {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;    
+    color: #445667de;
+
+
+}
+
+.overview p{
+    font-size: 2.2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    color: #445667de;
+    text-transform: capitalize;
+}
+
+.list-group-item-info {
+    background-color: #d9edf729;
+    color: #f3f3f396;
+}
+
+.list-group-item-success {
+    background-color: #dff0d873;
+}
+
+.list-group-item-success:hover {
+    color: black;
+}
+
+.list-group-item {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+.list-group-item:nth-of-type(1) {
+    font-size: 2.2rem;
+    font-family: 'Girassol', cursive;
+}
+
+.list-group-item-info:hover {
+    background-color: black;
+}
+
+
+#UCLA:hover, #NCKU:hover, #AMAZON:hover, #VIALABS:hover {
+    /* background-color: white; */
+    color: white;
+}
+
+.contact-icon {
+    font-size: 3rem;
+}
+
+.contact-icon-div-container {
+    margin-top: 30px;
+}
+
+.contact-icon:hover {
+    color: white;
+}
+
+.project p {
+    font-size: 2rem;
+}
+
+.project p:hover, .project h3:hover{
+    color: white;
+}

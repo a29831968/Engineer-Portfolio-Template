@@ -1,0 +1,12 @@
+html {
+    height: 100%;
+    
+}
+body {
+    background-color: rgba(57, 100, 200, 0.58);
+}
+
+.navbar-default {
+    background-color: #e5e5e675;
+    border: none;
+}
